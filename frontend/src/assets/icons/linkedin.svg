@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Gruppe_29" data-name="Gruppe 29" transform="translate(-929 -4692)">
+    <rect width="34" height="34" rx="5" transform="translate(929 4692)" fill="#fff"/>
+    <g id="linkedin" transform="translate(936 4699)">
+      <path d="M21.8,21.675H21.8V14.118c0-3.7-.8-6.544-5.117-6.544a4.486,4.486,0,0,0-4.041,2.221h-.06V7.919h-4.1V21.674h4.266V14.863c0-1.793.34-3.527,2.561-3.527,2.188,0,2.221,2.047,2.221,3.642v6.7Z" transform="translate(-1.202 -1.072)" fill="#283618"/>
+      <path d="M.4,7.977H4.668V21.732H.4Z" transform="translate(-0.056 -1.129)" fill="#283618"/>
+      <path d="M2.474,0A2.486,2.486,0,1,0,4.948,2.474,2.475,2.475,0,0,0,2.474,0Z" fill="#283618"/>
+    </g>
+  </g>
+</svg>

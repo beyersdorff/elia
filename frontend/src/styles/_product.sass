@@ -1,0 +1,103 @@
+.product
+  padding-bottom: 2rem
+
+  &__profile
+    margin-bottom: 1rem
+
+    &-image
+      width: 80px
+      height: 80px
+      border-radius: 50%
+      overflow: hidden
+
+      img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+    &-rating
+      display: inline-block
+      font-size: 13px
+      font-weight: 600
+      color: $color-highlight
+      text-decoration: underline
+      cursor: pointer
+
+    &-price
+      color: $color-black
+      font-size: 2rem
+      font-weight: 700
+
+  &__form
+
+    &-counter
+      width: 30px
+      height: 30px
+      padding: 0 !important
+      border-radius: 50% !important
+
+  &__image
+    object-fit: cover
+    border-radius: 3px
+
+  &__attributes
+    margin: 1.5rem auto
+    padding-bottom: 1.5rem
+    border-bottom: 1px solid #DEDEDE
+
+    &-item
+      font-weight: 700
+      color: $color-primary
+
+    &-label
+      margin-top: .5rem
+      font-size: 12px
+      font-weight: 600
+      opacity: .5
+
+  &__family
+    padding-bottom: 4rem
+    border-bottom: 1px solid #DEDEDE
+
+  &__review
+    color: $color-black
+
+    &-title
+      margin-bottom: 1.5rem
+
+    &-image
+      width: 70px
+      height: 70px
+      border-radius: 50%
+      overflow: hidden
+
+      img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+    &-date
+      margin: .6rem 0 .15rem
+      font-weight: 700
+      font-size: 14px
+
+    &-toggle
+      display: inline-block
+      color: $color-secondary
+      text-decoration: underline
+      cursor: pointer
+
+@keyframes inFormAnimation
+  0%
+    opacity: 0
+    visibility: hidden
+  100%
+    opacity: 1
+    visibility: visible
+
+@keyframes outFormAnimation
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+    visibility: hidden

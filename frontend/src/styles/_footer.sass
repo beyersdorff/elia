@@ -1,0 +1,32 @@
+.footer
+  padding: 2rem 0
+  background: $color-primary
+
+  &__logo
+    max-width: 150px
+    margin-bottom: 2rem
+
+    @media (min-width: 576px)
+      margin-bottom: 0
+
+  &__link
+    display: inline-block
+    margin: .3rem
+    color: $color-white !important
+
+    &-mail
+      text-decoration: none
+
+
+    &:hover
+      color: $color-highlight
+
+  &__social
+
+    &-icon
+      display: inline-block
+      margin: .3rem .25rem
+
+  @media (min-width: 576px)
+    div[class*="col-"]:nth-child(2)
+      text-align: right

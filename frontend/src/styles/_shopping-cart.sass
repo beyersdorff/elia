@@ -1,0 +1,54 @@
+.shopping-cart
+  padding-bottom: 2rem
+
+  &__item
+    padding: 1.5rem 0
+    border-top: 1px solid #DEDEDE
+
+    &:nth-of-type(1)
+      padding-top: 0
+      border-top: 0px
+
+    &-image
+      width: 120px
+      height: 120px
+      border-radius: 5px
+      overflow: hidden
+
+      img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+    &-name
+      font-size: 18px
+      font-weight: bold
+
+      a
+        color: $color-black !important
+        text-decoration: none
+
+    &-label
+      color: $color-black
+      font-weight: 700
+      font-size: 13px
+
+    &-price
+      font-size: 24px
+      font-weight: bold
+      color: $color-black
+
+    &-remove
+      width: 30px
+      height: 30px
+      padding: 0 !important
+      border-radius: 50% !important
+
+      img
+        margin-top: -2px
+
+  &__summary
+    position: sticky
+    top: 1rem
+    padding: 1.5rem
+    background: $color-grey

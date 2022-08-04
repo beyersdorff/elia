@@ -1,0 +1,32 @@
+@import 'styles/config.sass'
+
+body
+  color: #7D7D7D !important
+
+h1, h2, h3, h4, h5, h6
+  color: $color-black
+  font-weight: 700 !important
+
+img
+  max-width: 100%
+  height: auto
+
+label
+  color: $color-black
+  font-weight: 700
+  font-size: 13px
+
+a
+  color: $color-secondary !important
+
+// Change bootstrap standards
+
+.dropdown-item:focus,
+.dropdown-item:hover,
+.dropdown-item.active,
+.dropdown-item:active
+  background: rgba($color-secondary, .2) !important
+
+.form-check-input:checked
+  background-color: $color-secondary !important
+  border-color: $color-secondary !important

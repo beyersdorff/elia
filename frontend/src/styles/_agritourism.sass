@@ -1,0 +1,110 @@
+@import 'react-dates/lib/css/_datepicker.css'
+
+.agritourism
+
+  &__image
+    object-fit: cover
+    border-radius: 3px
+
+  &__region
+    padding-bottom: 4rem
+
+  &__activity
+    padding-bottom: 4rem
+
+  &__signup
+    background-color: rgba($color-secondary, 0.6)
+    
+    background-clip: content-box
+    padding-top: 4rem
+
+    &-image
+      margin-top: -4rem
+      margin-bottom: 4rem
+      margin-left: 10%
+      margin-right: 4rem
+      width: 80%
+      height: auto
+
+  &__signupform
+    margin-right: 4rem
+    margin-top: 2rem
+
+    &-title
+      color: $color-white
+      margin-bottom: 2rem
+
+  &__signupmessage
+    color: $color-white
+    margin-top: 4rem
+    margin-right: 2rem
+
+.CalendarDay
+
+  &__hovered,
+  &__hovered_span,
+  &__hovered_span:hover
+    background: $color-secondary
+    border: $color-secondary
+    color: $color-white
+
+  &__selected
+    background: $color-primary
+    border: $color-primary
+
+    &:hover,
+    &:active,
+    &_span,
+    &_span:hover,
+    &_span:active
+      background: $color-secondary
+      border: $color-secondary
+    
+.DateInput
+
+  background: transparent
+  width: 45% !important
+
+  #end-date
+    text-align: right !important
+
+  #start-date
+    text-align: left !important
+
+  &_input
+    font-size: 1rem
+    font-weight: 400
+    line-height: 1.5rem
+    padding-top: 6px
+    padding-bottom: 6px
+    
+    color: $color-black
+    background: transparent
+    text-align: middle !important
+
+    &__focused
+      border-bottom-color: $color-highlight
+
+.DateRangePickerInput
+  min-width: 100%
+
+  &__withBorder
+    border-radius: 6px
+
+  &_arrow
+    align: center !important
+    width: 10% !important
+    &_svg
+      height: 1rem
+      width: 1rem
+      fill: $color-black
+      display: block
+      margin: auto
+
+
+.DateRangePicker 
+  max-height: 100%
+
+.DayPickerKeyboardShortcuts_show__bottomRight::before
+  border-right-color: $color-primary
+

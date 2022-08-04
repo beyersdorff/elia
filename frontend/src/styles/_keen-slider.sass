@@ -1,0 +1,20 @@
+.keen-slider
+  margin-bottom: 2rem
+
+  &__slide
+    color: $color-black
+    font-weight: bold
+    font-size: 14px
+    text-align: center
+    cursor: pointer
+
+    &.active
+      color: $color-secondary
+
+  &__image
+    display: block
+    max-width: 100px
+    margin: 0 auto 10px
+
+    .active &
+      filter: invert(50%) sepia(10%) saturate(2000%) hue-rotate(30deg) brightness(80%) contrast(100%)
