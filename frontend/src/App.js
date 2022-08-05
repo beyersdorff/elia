@@ -6,9 +6,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CartProvider from "./contexts/cart";
 import UserProvider from "./contexts/user";
 
-// style
-import './App.sass';
-
 // components
 import Header from './components/shared/header';
 import Footer from './components/shared/footer';

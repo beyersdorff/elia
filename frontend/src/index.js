@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './index.css';
+// import custom bootstrap
+import './custom.scss';
+
+// import 'styles/config';
 
 import App from './App';
-
-// importing the Bootstrap CSS
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
